@@ -1,0 +1,102 @@
+body {
+  background-color: #ecf0f1;
+  /* line-height: 1.5rem; */
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #3498db;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #3498db;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2980b9;
+  font-size: 20px;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+/* Classes */
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 5%;
+  box-shadow: 3px 3px #dcdde1;
+}
+.bottom-padding {
+  padding-bottom: 1rem;
+}
+.text-center {
+  text-align: center;
+}
+
+.card img {
+  border-radius: 50%;
+}
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  background-color: #2ecc71;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 5%;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+/* Reponsive Design  */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .list-inline li {
+    display: block;
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+}
